@@ -1,8 +1,8 @@
 const router = require("express").Router();
 const db = require("../../models");
-const Tag = db.tag;
-const Product = db.product;
-const ProductTag = db.productTag;
+const Tag = db.Tag;
+const Product = db.Product;
+const ProductTag = db.ProductTag;
 
 // The `/api/tags` endpoint
 
